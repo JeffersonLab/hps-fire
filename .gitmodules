@@ -1,0 +1,3 @@
+[submodule "SimCore"]
+	path = SimCore
+	url = https://github.com/LDMX-Software/SimCore
