@@ -4,3 +4,6 @@
 [submodule "Framework"]
 	path = Framework
 	url = https://github.com/LDMX-Software/Framework
+[submodule "cmake"]
+	path = cmake
+	url = https://github.com/LDMX-Software/cmake
