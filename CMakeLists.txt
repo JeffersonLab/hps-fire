@@ -23,9 +23,8 @@ if (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
     message(STATUS "Install directory set to ${CMAKE_INSTALL_PREFIX}")
 endif()
 
-# Set the python installation path
-set(PYTHON_INSTALL_PREFIX ${CMAKE_INSTALL_PREFIX}/python/HPS)
-message(STATUS "Python install directory set to ${PYTHON_INSTALL_PREFIX}")
+# Set the python package name
+set(PYTHON_PACKAGE_NAME "HPS")
 
 # Set the default release type to "Release". If a release type is specified 
 # at the command line, it's respected.
