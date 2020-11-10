@@ -18,4 +18,4 @@ setup_library(name DetDescr
 # Setup the test
 setup_test(dependencies DetDescr::DetDescr)
 
-#setup_python(install_path ${PYTHON_INSTALL_PREFIX}/DetDescr)
+setup_python(package_name ${PYTHON_PACKAGE_NAME}/DetDescr)
