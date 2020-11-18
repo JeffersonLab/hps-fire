@@ -42,6 +42,7 @@ clear_cache_variables()
 # here.
 set(BUILD_EVENT_ONLY ON CACHE BOOL "Build the SimCore library." FORCE)
 
+add_subdirectory(Event) 
 add_subdirectory(SimCore ${CMAKE_BINARY_DIR}/SimCoreEvent)
 
 # Once the event libraries have been built, turn off the global option. 
