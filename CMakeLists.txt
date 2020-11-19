@@ -56,6 +56,8 @@ add_subdirectory(DetDescr)
 # SimCore allows the simulation to be run without biasing
 add_subdirectory(SimCore)
 
+add_subdirectory(Biasing)
+
 # If enabled, build all test.  The test are assumed to reside inside of the
 # directory "test" within each module.  The main
 option(BUILD_TESTS "Build and link the run-test executable." OFF)
